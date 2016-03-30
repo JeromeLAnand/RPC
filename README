@@ -1,0 +1,22 @@
+Instructions
+------------
+1. Building the source code :
+----------------------------
+	1. uncompress the zip file to a destination location
+	2. make all
+	3. Now you will have client, server executables in your destination folder
+
+2. Running the package :
+-----------------------
+	1. Once you have built the above source code, execute the below steps
+		terminal 1 :: $./server 
+		terminal 2 :: $./client localhost
+	2. You will be provided with 3 options. Please follow the same to add new users to the database
+
+3. Note:
+-------
+	1. Default build database, client, server executable are part of the package. If you wissh to use it, then
+		chmod 777 client
+		chmod 777 server
+	2. do install rpcbind before executing the binaries
+	3. the default user name = "admin" and password = "bits" without quotes
